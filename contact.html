@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type = "text/css" rel="stylesheet" href="css/font.css">
+    <title>Document</title>
+</head>
+        <body>
+        
+        <div class="header">
+            <table class="proh" align="center" width="100%"  bordercolor="crisom"  >
+                <tbody>
+                    <td width="80%"  >
+                        <h1 class="x1" >นพพล ชัยวรรณะ</h1>
+                        <a href="mailto:Nopphon_ch@cmu.ac.th" >Nopphon_ch@cmu.ac.th</a>
+                        <h3>(+66) 80 057 5375 </h3>
+                    </td>
+                    <td align="center" >
+                        <a href="https://www.facebook.com/godzerolong">
+                        <img class="portrait" src ="pic/me.jpg" alt="nopphon chaiwanna" width="200px" height="200px">
+                    </a>
+                </tbody>
+                    
+            </table>
+        </div>
+        
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li> 
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+        <form action="0">
+        <table width="80%" align="center" style="padding: 15px;   border:1px solid;" bgcolor="white">
+           
+            <tbody><tr>
+                <td><h3 class="d"><label>Subject:</label></h3 class="d"></td>
+                <td><input type="text" name="subject" value="" width="50px"> </td>
+            </tr>
+            <tr>
+                <td><h3 class="d"><label>Name:</label></h3></td>
+                <td><input type="text" name="fullname" value=""> </td>
+            </tr>
+            <tr>
+                <td><h3 class="d"><label>Gender:</label></h3></td>
+                <td class="d">
+                    <input type="radio" name="gender" value="male" > male 
+                    <input type="radio" name="gender" value="female"> female 
+                </td>
+            </tr>
+            <tr>
+                <td><h3 class="d"><label>Phone:</label></h3></td>
+                <td><input type="tel" name="phone" value=""> </td>
+            </tr>
+            <tr>
+                <td><h3 class="d"><label>Email:</label></h3></td>
+                <td><input type="email" value=""></td>
+            </tr>
+            <tr>
+                <td><h3 class="d"> <label>Massage:</label></h3></td>
+                <td> <textarea name="msg"></textarea> </td>
+            </tr>
+            <tr>
+                <td><h3 class="d"><label>choose file:</label></h3></td>
+                <td class="d">
+                    <br>
+                    <form action="/action_page.php" >
+                        <input type="file" name="myFile"><br><br>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="submit" value="submit"></td>
+            </tr>
+            
+        </tbody></table>
+</body>
+</html>

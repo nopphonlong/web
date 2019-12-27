@@ -1,0 +1,71 @@
+
+    @font-face {
+        font-family: kuf;
+        src: url(font/KulachatSlab-Regular.ttf);
+        
+      }
+    .d{
+        font-size: 24px;
+        font-family: kuf;
+    }
+    .x1{
+        font-family: kuf;
+    }
+    .proh{
+        padding: 25px;
+        background-image: url('pic/687474703a2f2f7777772e7a696f6c6b6f77736b692e706c2f456e7661746f2f506f6c79676f6e616c2d4261636b67726f756e642d494d4147452f506f6c79676f6e616c2d4261636b67726f756e645f426c75655f494d4147452d30312e706e67.png');
+    }
+    a{
+        color: blue;
+        font-family: fantasy;
+    }
+    .active {
+        background-color: rgb(0, 0, 0);
+      }
+    
+      
+    ul {
+        list-style-type: none;
+        margin: 1;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(17, 0, 255);
+        position: -webkit-sticky; 
+        position: sticky;
+        top: 0;
+        border-color: wheat;
+        
+      }
+      
+    li {
+        float: left;
+      }
+      
+    li a {
+        background-color: rgb(19, 4, 73);
+        display: block;
+        color: rgb(255, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+    li a:hover {
+        background-color: #111;
+      }
+    body {
+        font-size: 28px;
+        background-image: url('pic/mainbg.jpg');
+  }
+  .x2{
+      padding: 10px;
+      font-family: kuf;
+      background-color: skyblue;
+      border: 10px blue;
+  }
+  .x3{
+    padding: 10px;
+    font-family: kuf;
+    background-color: rgb(59, 108, 124);
+    border: 10px blue;
+}
